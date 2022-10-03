@@ -1,0 +1,14 @@
+<div class="container ">
+  <h1>Stupid Coaching</h1>
+  <div style="border-left:6px solid grey; padding:10px;">
+    <p><%= @question %> </p>
+    <p><em> &#8212; -You</em></p>
+  </div>
+  <br>
+  <div style="border-left:6px solid grey; padding:10px; background-color:#fffdb8;">
+    <p><%= @answer %> </p>
+    <p><em> &#8212; -Coach</em></p>
+  </div>
+  <br>
+  <%= link_to "Ask a new question", ask_path, style:"text-decoration:none;" %>
+</div>
